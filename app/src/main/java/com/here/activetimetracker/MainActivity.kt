@@ -11,7 +11,6 @@ import kotlinx.android.synthetic.main.content_active_screen.*
 class MainActivity : BaseActivity<ContentActiveScreenBinding>(), LifecycleOwner {
 
     override fun getLayoutRes(): Int {
-
         return R.layout.content_active_screen
     }
 
