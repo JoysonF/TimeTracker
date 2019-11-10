@@ -12,7 +12,7 @@ class MainActivity : BaseActivity<ContentActiveScreenBinding>(), LifecycleOwner 
 
     override fun getLayoutRes(): Int {
         return R.layout.content_active_screen
-    }
+}
 
     val counterViewModel: CounterViewModel by lazy {
         ViewModelProviders.of(this).get(CounterViewModel::class.java)
