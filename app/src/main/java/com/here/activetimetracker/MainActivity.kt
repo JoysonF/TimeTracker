@@ -4,10 +4,11 @@ import android.os.Bundle
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import com.here.activetimetracker.databinding.ContentActiveScreenBinding
 import com.here.activetimetracker.model.CounterViewModel
 import kotlinx.android.synthetic.main.content_active_screen.*
 
-class MainActivity : BaseActivity<com.here.activetimetracker.databinding.ContentActiveScreenBinding>(), LifecycleOwner {
+class MainActivity : BaseActivity<ContentActiveScreenBinding>(), LifecycleOwner {
 
     override fun getLayoutRes(): Int {
         return R.layout.content_active_screen
